@@ -28,6 +28,7 @@ public class Student {
     private Integer age;
     private LocalDate dob;
 
+    public Student() {}
 
     public Student(Long id, String name, String email, Integer age, LocalDate dob) {
         this.id = id;
